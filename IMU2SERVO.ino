@@ -17,7 +17,7 @@ void setup(){
   init_MPU(); // Inizializzazione MPU6050
 }
  
-void loop()
+void loop(){
   FunctionsMPU(); // Acquisisco assi AcX, AcY, AcZ.
     
   Roll = FunctionsPitchRoll(AcX, AcY, AcZ);   //Calcolo angolo Roll
